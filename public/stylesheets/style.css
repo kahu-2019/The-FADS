@@ -60,31 +60,3 @@ a {
 }
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="imagebox">
-        <a href="#hola">
-          <img src="//placeimg.com/400/400/animals"  class="category-banner img-responsive">
-          <span class="imagebox-desc">Lorem ipsum dolor sit amet!</span>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="imagebox">
-        <a href="#hola">
-          <img src="//placeimg.com/400/400/animals"  class="category-banner img-responsive">
-          <span class="imagebox-desc">Lorem ipsum dolor sit amet!</span>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="imagebox">
-        <a href="#hola">
-          <img src="//placeimg.com/400/400/animals"  class="category-banner img-responsive">
-          <span class="imagebox-desc">Lorem ipsum dolor sit amet!</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
