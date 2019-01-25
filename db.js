@@ -10,6 +10,6 @@ module.exports = {
 function randomQ(randomQ, db = connection) {
   return db('quotes')
     .select('quotes')
-    .orderByRaw('RAND()')
+    .orderByRaw(RAND())
     .limit(1)
 }
