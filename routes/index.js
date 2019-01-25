@@ -5,7 +5,7 @@ const db = require('../db')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  var quotes = db.randomQ(randomQ)
+  var quotes = db.randomQ()
   console.log(quotes)
   res.render('index', { title: 'F-A-D-S' });
 });

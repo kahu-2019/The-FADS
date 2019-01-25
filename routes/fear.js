@@ -5,11 +5,11 @@ var express = require('express');
 var router = express.Router()
 
 
-router.get('/', function(req, res){
-//   db.getUsers()
-//   .then(users => {
-    res.render('index')
-  })
+router.get('/', function (req, res) {
+  //   db.getUsers()
+  //   .then(users => {
+  res.render('fear')
+})
 //   .catch(err => {
 //   res.status(500).send('DATABASE ERROR: '+ err.message)
 
