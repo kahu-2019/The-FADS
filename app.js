@@ -8,7 +8,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/anxiety');
 var fearRouter = require('./routes/fear');
 var doubtRouter = require('./routes/doubt');
-var stressRouter = require('./routes/stress')
+var stressRouter = require('./routes/stress');
+var formRouter = require('./routes/form');
 // var anxiety = require('./routes/anxiety')
 
 var app = express();
@@ -27,7 +28,8 @@ app.use('/', indexRouter);
 app.use('/anxiety', usersRouter);
 app.use('/fear', fearRouter);
 app.use('/doubt', doubtRouter);
-app.use('/stress', stressRouter)
+app.use('/stress', stressRouter);
+app.use('/form', formRouter);
 
 
 

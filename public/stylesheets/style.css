@@ -64,3 +64,41 @@ a {
 }
 
 
+label {
+  font-size: 25px;
+  font-display: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-display: bold;
+}
+
+.sub {
+  position: relative;
+  left:20%;
+  top:250px;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+input {
+  border: 3px solid black;
+}
+
+.bod {
+  background-repeat: no-repeat;
+    background: url("/mute-world.jpg") center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.home {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  position: relative;
+  top: 500px;
+  left: 1100px;
+}

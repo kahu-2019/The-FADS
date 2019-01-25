@@ -1,16 +1,12 @@
 var express = require('express');
 
-// const db = require('./db')
-
 var router = express.Router()
 
 
-router.get('/', function(req, res){
-//   db.getUsers()
-//   .then(users => {
-    res.render('fear')
-  })
-//   .catch(err => {
-//   res.status(500).send('DATABASE ERROR: '+ err.message)
+router.get('/', function (req, res) {
+
+  res.render('fear')
+})
+
 
 module.exports = router;
