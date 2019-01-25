@@ -5,12 +5,12 @@ var express = require('express');
 var router = express.Router()
 
 
-router.get('/', function(req, res){
- 
-    res.send('Anxiety')
-  })
-  // .catch(err => {
-  // res.status(500).send('DATABASE ERROR: '+ err.message)
+router.get('/', function (req, res) {
+
+  res.send('anxiety')
+})
+// .catch(err => {
+// res.status(500).send('DATABASE ERROR: '+ err.message)
 
 
 module.exports = router;
