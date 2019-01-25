@@ -5,7 +5,7 @@ var router = express.Router()
 
 router.get('/', function(req, res){
  
-    res.send('Doubt')
+    res.render('doubt')
   })
   
 //   res.status(500).send('DATABASE ERROR: '+ err.message)
